@@ -1,0 +1,77 @@
+{
+  "skill_id": "de_dev_03_sk05",
+  "name": "多语言写作",
+  "type": "atomic",
+  "input": {
+    "type": "object",
+    "required": [
+      "content",
+      "target_lang"
+    ],
+    "properties": {
+      "content": {
+        "type": "string",
+        "description": "待转换文本：需要翻译或转换的完整文本"
+      },
+      "target_lang": {
+        "type": "string",
+        "description": "目标语言：目标语种"
+      },
+      "glossary": {
+        "type": "string",
+        "description": "术语表：专有名词的指定译法（可选）"
+      }
+    }
+  },
+  "output": {
+    "type": "object",
+    "required": [
+      "translated",
+      "glossary_used",
+      "tone_check"
+    ],
+    "properties": {
+      "translated": {
+        "type": "string",
+        "description": "目标语言的完整文本"
+      },
+      "glossary_used": {
+        "type": "array",
+        "description": "专有名词的处理方式",
+        "items": {
+          "type": "object",
+          "properties": {
+            "原词": {
+              "type": "string"
+            },
+            "译法": {
+              "type": "string"
+            },
+            "依据": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "tone_check": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "文化差异与语感调整说明"
+      }
+    },
+    "x-rendered-from": "capability:translate"
+  },
+  "constraints": {
+    "max_input_length": 5000,
+    "forbidden_words": [
+      "最好",
+      "第一",
+      "100%"
+    ],
+    "ai_label_required": true,
+    "human_review_required": true,
+    "external_api_required": false
+  }
+}

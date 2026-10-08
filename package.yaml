@@ -1,0 +1,56 @@
+name: SEO 架构师
+repo: bangwozuo/seo-matrix-zh
+legacy_name: SEO 内容矩阵助理（独立站增长助理）
+version: 0.2.0
+asset_type: prompt-only
+stage: P1
+complexity: M-L（数据源连接器重），P1 二期
+group: OPC
+runtime_dependencies: none
+api_key_required: false
+demand_ids:
+  - D01
+  - D22
+
+workflows:
+  - name: 关键词调研
+    id: de_dev_03_wf01
+  - name: 竞品内容差距分析
+    id: de_dev_03_wf02
+  - name: 文章大纲生成
+    id: de_dev_03_wf03
+  - name: 多语言文章产出
+    id: de_dev_03_wf04
+  - name: 内链建议
+    id: de_dev_03_wf05
+  - name: 收录与排名监控
+    id: de_dev_03_wf06
+
+skills:
+  - id: keyword-cluster
+    name: 关键词聚类
+    family: 
+  - id: serp-competition-analysis
+    name: SERP 竞争分析
+    family: 
+  - id: content-outline-generate
+    name: 内容大纲生成
+    family: 
+  - id: programmatic-page-generate
+    name: 程序化页面生成
+    family: 
+  - id: multilingual-writing
+    name: 多语言写作
+    family: 
+  - id: internal-link-matching
+    name: 内链智能配对
+    family: 
+  - id: rank-volatility-alert
+    name: 排名波动预警
+    family: 
+
+compliance:
+  ai_label_required: true
+  human_review_required: true
+  forbidden_words_check: true
+  official_api_only: true

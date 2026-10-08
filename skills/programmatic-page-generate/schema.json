@@ -1,0 +1,82 @@
+{
+  "skill_id": "de_dev_03_sk04",
+  "name": "程序化页面生成",
+  "type": "atomic",
+  "input": {
+    "type": "object",
+    "required": [
+      "template",
+      "dataset"
+    ],
+    "properties": {
+      "template": {
+        "type": "string",
+        "description": "页面模板：页面的固定结构说明"
+      },
+      "dataset": {
+        "type": "string",
+        "description": "数据集：要批量套用的数据条目"
+      }
+    }
+  },
+  "output": {
+    "type": "object",
+    "required": [
+      "pages",
+      "template_notes",
+      "exceptions"
+    ],
+    "properties": {
+      "pages": {
+        "type": "array",
+        "description": "逐页产出的内容",
+        "items": {
+          "type": "object",
+          "properties": {
+            "页面": {
+              "type": "string"
+            },
+            "标题": {
+              "type": "string"
+            },
+            "meta/摘要": {
+              "type": "string"
+            },
+            "正文要点": {
+              "type": "string"
+            },
+            "结构化数据": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "template_notes": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "模板字段与占位符说明"
+      },
+      "exceptions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "数据缺失或不适配的条目"
+      }
+    },
+    "x-rendered-from": "capability:generate_page"
+  },
+  "constraints": {
+    "max_input_length": 5000,
+    "forbidden_words": [
+      "最好",
+      "第一",
+      "100%"
+    ],
+    "ai_label_required": true,
+    "human_review_required": true,
+    "external_api_required": false
+  }
+}
