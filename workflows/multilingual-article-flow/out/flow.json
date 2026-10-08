@@ -1,0 +1,72 @@
+{
+ "summary": "程序化页面 3 页（数据集 3 条，异常 0 条），目标语言 英语（美式）；术语 2 条全部通过一致性核对",
+ "steps": [
+  "S1 程序化页面生成：3 页，meta ≤155 字符校验，FAQPage 结构化数据 ×3",
+  "S2 多语言写作校验：目标语言 英语（美式），术语一致性核对 5 条",
+  "S3 汇总落盘：页面清单.csv + 术语表.csv + flow.json"
+ ],
+ "deliverable": {
+  "pages": [
+   {
+    "页面": "/compare/mini-12l-vs-air-20l",
+    "标题": "Bakely Mini 12L vs Air 20L：Which Should You Buy?",
+    "meta": "Compare Bakely Mini 12L and Air 20L: capacity, preheat speed, and price.",
+    "正文要点": "①规格对照表（容量 12L vs 20L；功率 1200W vs 1600W；预热时间 3min vs 5min；价格 $89 vs $129）②同规格段落 2-3 条说明 ③FAQ 2 条 ④CTA",
+    "FAQ条数": 2
+   },
+   {
+    "页面": "/compare/air-20l-vs-pro-25l",
+    "标题": "Bakely Air 20L vs Pro 25L：Which Should You Buy?",
+    "meta": "Compare Bakely Air 20L and Pro 25L: capacity, convection fan, and price.",
+    "正文要点": "①规格对照表（容量 20L vs 25L；功率 1600W vs 1800W；预热时间 5min vs 6min；价格 $129 vs $169）②同规格段落 2-3 条说明 ③FAQ 2 条 ④CTA",
+    "FAQ条数": 2
+   },
+   {
+    "页面": "/compare/mini-12l-vs-pro-25l",
+    "标题": "Bakely Mini 12L vs Pro 25L：Which Should You Buy?",
+    "meta": "Compare Bakely Mini 12L and Pro 25L: capacity gap, price difference, and price.",
+    "正文要点": "①规格对照表（容量 12L vs 25L；功率 1200W vs 1800W；预热时间 3min vs 6min；价格 $89 vs $169）②同规格段落 2-3 条说明 ③FAQ 2 条 ④CTA",
+    "FAQ条数": 2
+   }
+  ],
+  "exceptions": [],
+  "terms": [
+   {
+    "原词": "焙语",
+    "译法": "Bakely",
+    "依据": "品牌名不意译",
+    "页面出现次数": 6,
+    "一致性": "✅"
+   },
+   {
+    "原词": "预热时间",
+    "译法": "preheat time",
+    "依据": "用户术语表",
+    "页面出现次数": 0,
+    "一致性": "⚠️ 未在页面要素中出现，人工确认"
+   },
+   {
+    "原词": "对流风机",
+    "译法": "convection fan",
+    "依据": "用户术语表",
+    "页面出现次数": 1,
+    "一致性": "✅"
+   },
+   {
+    "原词": "结构化数据 FAQ 中的「质保」",
+    "译法": "warranty",
+    "依据": "整线 1 年质保统一译为 1-year warranty",
+    "页面出现次数": 0,
+    "一致性": "⚠️ 未在页面要素中出现，人工确认"
+   },
+   {
+    "原词": "（目标语言）",
+    "译法": "英语（美式）",
+    "依据": "用户指定",
+    "页面出现次数": 3,
+    "一致性": "✅ 全部页面统一"
+   }
+  ]
+ },
+ "note": "模板渲染与术语核对由本脚本完成；FAQ 文案与正文成稿由模型按 prompt.txt 完成"
+}

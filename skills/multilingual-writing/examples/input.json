@@ -1,7 +1,5 @@
 {
-  "content": "需要处理的文本内容",
-  "target_lang": "English",
-  "glossary": {
-    "品牌名": "BrandName"
-  }
+  "content": "云饮智能保温杯 Pro 采用 316L 医用级不锈钢内胆，真空锁温层可实现 12 小时保温、24 小时保冷。杯盖内置温度显示屏，轻触即可读取当前水温，避免儿童烫伤。配套的云饮 App 支持每日饮水目标设定与提醒，并通过蓝牙同步饮水记录。整机 IPX7 防水，续航 30 天，建议零售价 299 元，提供 1 年质保。",
+  "target_lang": "英语（美式）",
+  "glossary": "云饮→CloudSip（品牌名，注册商标不意译）；云饮智能保温杯 Pro→CloudSip Smart Thermal Bottle Pro；316L 医用级不锈钢→316L medical-grade stainless steel；IPX7 防水→IPX7 water resistance"
 }

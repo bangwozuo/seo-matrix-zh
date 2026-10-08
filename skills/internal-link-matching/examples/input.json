@@ -1,4 +1,4 @@
 {
-  "source_set": "（源集合：需要被映射的条目）",
-  "target_set": "（目标集合：映射的目标体系或清单）"
+  "source_set": "新发布博客文章（待加内链）：\nA1.《跨境电商选品方法论：用数据替代拍脑袋》\nA2.《Shopify 独立站收款方式对比：Stripe vs PayPal vs 本地支付》\nA3.《海外仓怎么选？头程、仓储、尾程成本拆解》\nA4.《跨境电商退换货处理流程与话术模板》\nA5.《独立站 SEO 入门：关键词布局与内容矩阵》",
+  "target_set": "站点已有页面（可作为内链目标）：\nB1. /tools/selector —— 智能选品工具页（在线使用）\nB2. /guides/payment —— 支付通道配置指南（长文）\nB3. /services/overseas-warehouse —— 海外仓合作服务页（含报价）\nB4. /blog/return-policy —— 跨境退换货政策解读（旧文，2024 年发布）\nB5. /blog/seo-basics —— 独立站 SEO 基础教程（旧文，2025 年发布）\nB6. / —— 首页\nB7. /pricing —— 产品价格页\nB8. /cases —— 客户案例列表页"
 }

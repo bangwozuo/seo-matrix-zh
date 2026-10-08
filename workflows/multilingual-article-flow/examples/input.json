@@ -1,3 +1,3 @@
 {
-  "input": "请提供工作流的初始输入数据"
+  "input": "品牌：焙语焙语（Bakely）家用烘焙设备出海项目\n步骤输入一（程序化页面生成所需 模板+数据集）：\n模板：产品对比落地页模板。固定结构：H1 =「Bakely {机型} vs {机型}：Which Should You Buy?」；meta description 模板 =「Compare Bakely {机型A} and {机型B}: {差异点1}, {差异点2}, and price.」；正文段落：①规格对照表（容量/功率/预热时间/价格）②同规格段落 2-3 条说明 ③FAQ（2 条）④CTA。每页输出 FAQPage 结构化数据。\n数据集：条目1：机型A=Mini 12L，机型B=Air 20L，容量=12L vs 20L，功率=1200W vs 1600W，预热时间=3min vs 5min，价格=$89 vs $129，差异点1=capacity，差异点2=preheat speed；条目2：机型A=Air 20L，机型B=Pro 25L，容量=20L vs 25L，功率=1600W vs 1800W，预热时间=5min vs 6min，价格=$129 vs $169，差异点1=capacity，差异点2=convection fan；条目3：机型A=Mini 12L，机型B=Pro 25L，容量=12L vs 25L，功率=1200W vs 1800W，预热时间=3min vs 6min，价格=$89 vs $169，差异点1=capacity gap，差异点2=price difference\n步骤输入二（多语言写作所需 目标语言+术语表）：\ntarget_lang=英语（美式）；glossary：焙语→Bakely（品牌名不意译）；预热时间→preheat time；对流风机→convection fan；结构化数据 FAQ 中的「质保」→warranty（整线 1 年质保统一译为 1-year warranty）"
 }

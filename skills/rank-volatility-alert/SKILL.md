@@ -50,6 +50,17 @@
 | **Claude** | 新建 Project → Instructions → 粘贴 `prompt.txt` |
 | **ChatGPT** | 新建 GPT → Instructions → 粘贴 `prompt.txt` |
 
+### 方式三：带脚本（确定性计算，数值可复核）
+
+```bash
+python scripts/rank_alert.py --input examples/input.json --outdir out
+python scripts/rank_alert.py --demo --outdir out      # 无输入也能看效果
+```
+
+脚本承担**确定性部分**（排名波动预警的解析、阈值/相似度判定、产物落盘），
+模型承担语境解读与建议撰写。数值一律以脚本输出的 预警清单.csv / alerts.json / 预警报告.md 为准；
+缺依赖时脚本会提示并以非零退出码结束，不静默失败。
+
 ## 边界（不做的事）
 
 - ❌ 编造数据、案例或效果承诺
