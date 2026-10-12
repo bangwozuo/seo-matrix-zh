@@ -4,8 +4,7 @@
 
 ![SEO 架构师 · 动态演示](docs/assets/hero.gif)
 
-*▲ 实时演示（自动循环）· [▶ 观看完整版合集视频](docs/demo.mp4)*
-
+*▲ 真实执行录播（自动循环播放）· [▶ 观看完整版合集视频](docs/demo.mp4)*
 
 [![Stage](https://img.shields.io/badge/stage-P1-orange)](https://github.com/bangwozuo)
 [![Asset](https://img.shields.io/badge/asset-prompt--only-blueviolet)](#资产形态)
@@ -113,13 +112,13 @@ seo-matrix-zh/
 
 | # | 技能 | 能力族 | 复杂度 | 提示词 | 文档 |
 |---|------|--------|--------|--------|------|
-| 1 | 关键词聚类 | 摘要提炼 | `M` | [prompt.txt](skills/keyword-cluster/prompt.txt) | [docs](skills/keyword-cluster/docs/) |
-| 2 | SERP 竞争分析 | 摘要提炼 | `M` | [prompt.txt](skills/serp-competition-analysis/prompt.txt) | [docs](skills/serp-competition-analysis/docs/) |
-| 3 | 内容大纲生成 | — | `S` | [prompt.txt](skills/content-outline-generate/prompt.txt) | [docs](skills/content-outline-generate/docs/) |
-| 4 | 程序化页面生成 | — | `L` | [prompt.txt](skills/programmatic-page-generate/prompt.txt) | [docs](skills/programmatic-page-generate/docs/) |
-| 5 | 多语言写作 | 多语言 | `S` | [prompt.txt](skills/multilingual-writing/prompt.txt) | [docs](skills/multilingual-writing/docs/) |
-| 6 | 内链智能配对 | — | `M` | [prompt.txt](skills/internal-link-matching/prompt.txt) | [docs](skills/internal-link-matching/docs/) |
-| 7 | 排名波动预警 | — | `M` | [prompt.txt](skills/rank-volatility-alert/prompt.txt) | [docs](skills/rank-volatility-alert/docs/) |
+| 1 | 关键词聚类 | 摘要与聚类 | `M` | [prompt.txt](skills/keyword-cluster/prompt.txt) | [docs](skills/keyword-cluster/docs/) |
+| 2 | SERP 竞争分析 | 摘要与聚类 | `M` | [prompt.txt](skills/serp-competition-analysis/prompt.txt) | [docs](skills/serp-competition-analysis/docs/) |
+| 3 | 内容大纲生成 | 大纲与结构模板 | `S` | [prompt.txt](skills/content-outline-generate/prompt.txt) | [docs](skills/content-outline-generate/docs/) |
+| 4 | 程序化页面生成 | 批量页面生成 | `L` | [prompt.txt](skills/programmatic-page-generate/prompt.txt) | [docs](skills/programmatic-page-generate/docs/) |
+| 5 | 多语言写作 | 多语言转换 | `S` | [prompt.txt](skills/multilingual-writing/prompt.txt) | [docs](skills/multilingual-writing/docs/) |
+| 6 | 内链智能配对 | 映射与配对 | `M` | [prompt.txt](skills/internal-link-matching/prompt.txt) | [docs](skills/internal-link-matching/docs/) |
+| 7 | 排名波动预警 | 异动检测与预警 | `M` | [prompt.txt](skills/rank-volatility-alert/prompt.txt) | [docs](skills/rank-volatility-alert/docs/) |
 
 ## 工作流清单（6 条）
 
