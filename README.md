@@ -110,26 +110,26 @@ seo-matrix-zh/
 
 ## 技能清单（7 个）
 
-| # | 技能 | 能力族 | 复杂度 | 提示词 | 文档 |
-|---|------|--------|--------|--------|------|
-| 1 | 关键词聚类 | 摘要与聚类 | `M` | [prompt.txt](skills/keyword-cluster/prompt.txt) | [docs](skills/keyword-cluster/docs/) |
-| 2 | SERP 竞争分析 | 摘要与聚类 | `M` | [prompt.txt](skills/serp-competition-analysis/prompt.txt) | [docs](skills/serp-competition-analysis/docs/) |
-| 3 | 内容大纲生成 | 大纲与结构模板 | `S` | [prompt.txt](skills/content-outline-generate/prompt.txt) | [docs](skills/content-outline-generate/docs/) |
-| 4 | 程序化页面生成 | 批量页面生成 | `L` | [prompt.txt](skills/programmatic-page-generate/prompt.txt) | [docs](skills/programmatic-page-generate/docs/) |
-| 5 | 多语言写作 | 多语言转换 | `S` | [prompt.txt](skills/multilingual-writing/prompt.txt) | [docs](skills/multilingual-writing/docs/) |
-| 6 | 内链智能配对 | 映射与配对 | `M` | [prompt.txt](skills/internal-link-matching/prompt.txt) | [docs](skills/internal-link-matching/docs/) |
-| 7 | 排名波动预警 | 异动检测与预警 | `M` | [prompt.txt](skills/rank-volatility-alert/prompt.txt) | [docs](skills/rank-volatility-alert/docs/) |
+| # | 技能 | 能力族 | 复杂度 | 说明文档 |
+|---|------|--------|--------|----------|
+| 1 | 关键词聚类 | 摘要与聚类 | `M` | [README](skills/keyword-cluster/README.md) |
+| 2 | SERP 竞争分析 | 摘要与聚类 | `M` | [README](skills/serp-competition-analysis/README.md) |
+| 3 | 内容大纲生成 | 大纲与结构模板 | `S` | [README](skills/content-outline-generate/README.md) |
+| 4 | 程序化页面生成 | 批量页面生成 | `L` | [README](skills/programmatic-page-generate/README.md) |
+| 5 | 多语言写作 | 多语言转换 | `S` | [README](skills/multilingual-writing/README.md) |
+| 6 | 内链智能配对 | 映射与配对 | `M` | [README](skills/internal-link-matching/README.md) |
+| 7 | 排名波动预警 | 异动检测与预警 | `M` | [README](skills/rank-volatility-alert/README.md) |
 
 ## 工作流清单（6 条）
 
-| # | 工作流 | 阶段 | 复杂度 | 触发 | 定义 | 文档 |
-|---|--------|------|--------|------|------|------|
-| 1 | 关键词调研 | `P1` | `M` | 人工（每月） | [SKILL.md](workflows/keyword-research-flow/SKILL.md) | [docs](workflows/keyword-research-flow/docs/) |
-| 2 | 竞品内容差距分析 | `P1` | `M` | 事件（调研后） | [SKILL.md](workflows/content-gap-analysis-flow/SKILL.md) | [docs](workflows/content-gap-analysis-flow/docs/) |
-| 3 | 文章大纲生成 | `P1` | `S` | 人工 | [SKILL.md](workflows/article-outline-flow/SKILL.md) | [docs](workflows/article-outline-flow/docs/) |
-| 4 | 多语言文章产出 | `P1` | `M` | 事件（大纲确认后） | [SKILL.md](workflows/multilingual-article-flow/SKILL.md) | [docs](workflows/multilingual-article-flow/docs/) |
-| 5 | 内链建议 | `P2` | `M` | 定时（每周） | [SKILL.md](workflows/internal-link-advice-flow/SKILL.md) | [docs](workflows/internal-link-advice-flow/docs/) |
-| 6 | 收录与排名监控 | `P2` | `M` | 定时（每周） | [SKILL.md](workflows/indexing-rank-monitor-flow/SKILL.md) | [docs](workflows/indexing-rank-monitor-flow/docs/) |
+| # | 工作流 | 阶段 | 复杂度 | 触发 | 说明文档 |
+|---|--------|------|--------|------|----------|
+| 1 | 关键词调研 | `P1` | `M` | 人工（每月） | [README](workflows/keyword-research-flow/README.md) |
+| 2 | 竞品内容差距分析 | `P1` | `M` | 事件（调研后） | [README](workflows/content-gap-analysis-flow/README.md) |
+| 3 | 文章大纲生成 | `P1` | `S` | 人工 | [README](workflows/article-outline-flow/README.md) |
+| 4 | 多语言文章产出 | `P1` | `M` | 事件（大纲确认后） | [README](workflows/multilingual-article-flow/README.md) |
+| 5 | 内链建议 | `P2` | `M` | 定时（每周） | [README](workflows/internal-link-advice-flow/README.md) |
+| 6 | 收录与排名监控 | `P2` | `M` | 定时（每周） | [README](workflows/indexing-rank-monitor-flow/README.md) |
 
 ---
 
